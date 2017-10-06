@@ -1,0 +1,28 @@
+h1, .jumbotron p {
+  text-align: center
+}
+body{
+  background: url("../images/train.jpg") fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block; 
+  content:""; 
+  position: absolute; 
+  z-index:-1;
+  top:0; 
+  left: 0; 
+  right: 0; 
+  height: 120%;
+  opacity:.9;
+}
+.jumbotron {
+  background-color: #50C3F9;
+}
+#addInfo {
+  margin-top: 10px;
+}
+input {
+  margin-bottom: 10px;
+}
